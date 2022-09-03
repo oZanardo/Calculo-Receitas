@@ -209,7 +209,32 @@ namespace Calculo_receitas
             
             Console.WriteLine();
 
-            
+            //Preço horas 
+            Console.Write("Quanto tempo você leva para preparar uma receita : ");
+            hora = double.Parse(Console.ReadLine());
+            Console.Write("Quantas receitas consegue fazer ao mesmo tempo : ");
+            qtd = double.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+
+            Console.Write("Escreva por quanto a RECEITA é vendida : ");
+            real = double.Parse(Console.ReadLine());
+
+            if (ingredientes.Valor > 0)
+            {
+                real = real - ingredientes.Valor;
+            }
+            else
+            {
+                Console.Write("Digite o valor da receita : ");
+                real = double.Parse(Console.ReadLine());
+            }
+
+            double salarioHora = PrecoHoras.Valor(hora, real, qtd);
+
+            Console.WriteLine("Salário/Hora = " + salarioHora);
+            //
+
             Console.ReadLine();
         }
 
