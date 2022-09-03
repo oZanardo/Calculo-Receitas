@@ -1,0 +1,15 @@
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\CalculoReceitas.csproj.AssemblyReference.cache
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\CalculoReceitas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\CalculoReceitas.AssemblyInfoInputs.cache
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\CalculoReceitas.AssemblyInfo.cs
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\CalculoReceitas.csproj.CoreCompileInputs.cache
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\bin\Debug\net6.0\CalculoReceitas.exe
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\bin\Debug\net6.0\CalculoReceitas.deps.json
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\bin\Debug\net6.0\CalculoReceitas.runtimeconfig.json
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\bin\Debug\net6.0\CalculoReceitas.dll
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\bin\Debug\net6.0\CalculoReceitas.pdb
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\CalculoReceitas.dll
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\refint\CalculoReceitas.dll
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\CalculoReceitas.pdb
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\CalculoReceitas.genruntimeconfig.cache
+C:\Users\João Victor Zanardo\Desktop\Programação\Curso C# POO\Calculo receitas\Calculo receitas\obj\Debug\net6.0\ref\CalculoReceitas.dll
