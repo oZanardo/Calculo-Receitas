@@ -170,13 +170,13 @@ namespace Calculo_receitas
 
                     //Calculos
 
-                    double cal = Info(Nutricional.ValorBase, Nutricional.ValorUsado, Nutricional.ValorEnergetico);
+                    double cal = Funcoes.Info(Nutricional.ValorBase, Nutricional.ValorUsado, Nutricional.ValorEnergetico);
 
-                    double carbo = Info(Nutricional.ValorBase, Nutricional.ValorUsado, Nutricional.Carbo);
+                    double carbo = Funcoes.Info(Nutricional.ValorBase, Nutricional.ValorUsado, Nutricional.Carbo);
 
-                    double prot = Info(Nutricional.ValorBase, Nutricional.ValorUsado, Nutricional.Prot);
+                    double prot = Funcoes.Info(Nutricional.ValorBase, Nutricional.ValorUsado, Nutricional.Prot);
 
-                    double gorduras = Info(Nutricional.ValorBase, Nutricional.ValorUsado, Nutricional.GorduraTotais);
+                    double gorduras = Funcoes.Info(Nutricional.ValorBase, Nutricional.ValorUsado, Nutricional.GorduraTotais);
 
 
 
@@ -230,21 +230,13 @@ namespace Calculo_receitas
                 real = double.Parse(Console.ReadLine());
             }
 
-            double salarioHora = PrecoHoras.Valor(hora, real, qtd);
+            double salarioHora = Funcoes.PrecoHora(hora, real, qtd);
 
             Console.WriteLine("Salário/Hora = " + salarioHora);
             //
 
             Console.ReadLine();
         }
-
-
-       
-             static double Info(double ValorB, double ValorUsado, double Nutri)
-             {
-                 double Nutricional = (ValorB * Nutri) / ValorUsado;
-                 return Nutricional;
-             }
 
         }
     }
