@@ -25,11 +25,11 @@ namespace Calculo_receitas
 
             Console.WriteLine("Digite 1.Para ver o valor da receita 2.Para fazer a tabela nutricional 3.Para fazer ambos");
 
-            int a = int.Parse(Console.ReadLine());
+            string a = Console.ReadLine();
 
             
             //VALOR DA RECEITA
-            if (a == 1)
+            if (a == "1")
             {
 
                 Console.WriteLine("Digite quantos ingredientes vão na receita :");
@@ -66,7 +66,7 @@ namespace Calculo_receitas
 
 
             //TABELA NUTRICIONAL
-            else if (a == 2)
+            else if (a == "2")
             {
                 Console.WriteLine("Digite quantos ingredientes vão na receita :");
                 int n = int.Parse(Console.ReadLine());
@@ -119,7 +119,7 @@ namespace Calculo_receitas
 
             }
 
-            else {
+            else if (a == "3") {
 
 
                 Console.WriteLine("Digite quantos ingredientes vão na receita :");
@@ -207,6 +207,10 @@ namespace Calculo_receitas
 
             }
             
+            else
+            {
+                Console.WriteLine("Comando inválido");
+            }
             Console.WriteLine();
 
             //Preço horas 
